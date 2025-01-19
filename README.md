@@ -14,4 +14,8 @@ Essa aplicação utiliza validações nativas do HTML (required e minlength) par
 ## Instruções de Uso
 1. Clone o repositório:
    ```bash
-   git clone <git@github.com:Dev-DanyVazquez69/desafio_avati_estagio.git>
+   git clone git@github.com:Dev-DanyVazquez69/desafio_avati_estagio.git
+2. Navegue ao diretório:
+   ```bash
+   cd desafio_avati_estagio
+3. Abra o arquivo index.html:
