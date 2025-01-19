@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Avati</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="loginForm">
+      <h1>Login</h1>
+      <div class="form-group">
+        <label for="email">Nome de usuário - E-mail</label>
+        <!-- usando required + tipo do campo para realizar a validação no própio html -->
+        <input type="email" id="email" placeholder="Digite seu e-mail" required>
+        <span class="error" id="emailError"></span>
+      </div>
+      <div class="form-group">
+        <label for="password">Senha</label>
+        <!-- usando required + minimo de caracteres para realizar a validação no própio html -->
+        <input type="password" id="password" placeholder="Digite sua senha" minlength="6" required>
+        <span class="error" id="passwordError"></span>
+      </div>
+      <button type="submit" id="loginButton">Entrar</button>
+      <span class="success" id="successMessage"></span>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
